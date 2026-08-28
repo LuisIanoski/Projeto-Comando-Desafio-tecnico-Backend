@@ -1,16 +1,13 @@
 # Desafio Técnico Backend - API de Gestão de Estoque
 
 ## Objetivo
-O objetivo deste desafio é desenvolver uma API RESTful para gerenciar o estoque de produtos e suas movimentações (entradas e saídas).
+O objetivo deste desafio é desenvolver uma API RESTful para gerenciar o estoque de produtos e suas movimentações (entradas e saídas). Queremos avaliar sua capacidade de estruturar o código, desenhar a modelagem do banco de dados e aplicar regras de negócio consistentes.
 
 ## Tecnologias Exigidas
 * **Node.js** com **TypeScript**
 * **Prisma ORM**
 * Banco de Dados **PostgreSQL**
 * **Express**
-
-## Estrutura de Dados
-A modelagem visual das tabelas e seus relacionamentos está descrita no arquivo **[db.dbml](./db.dbml)**, presente na mesma pasta deste repositório no GitHub.
 
 ## Requisitos e Endpoints
 A API deve permitir o gerenciamento de três entidades principais: **Categorias**, **Produtos** e **Movimentações**.
@@ -38,9 +35,16 @@ A API deve permitir o gerenciamento de três entidades principais: **Categorias*
 ## Arquitetura e Injeção de Dependência
 Esperamos que a aplicação siga uma separação clara de responsabilidades, seguindo conceitos da arquitetura em camadas.
 
+## Entregáveis
+Para que sua avaliação seja concluída, você deve fornecer os seguintes itens na sua entrega:
+* **Código Fonte:** O repositório completo com a aplicação desenvolvida.
+* **Tutorial de Utilização:** Instruções claras detalhando como utilizar o **Docker** para subir a aplicação e o banco de dados, além de como executar a API.
+* **Relatório de Criação:** Um breve documento (pode ser incluído no próprio README da sua entrega) explicando as decisões de arquitetura, como desenhou as tabelas e os desafios encontrados.
+* **Outros Dados Adicionais:** Coleções do Postman/Insomnia, scripts extras, ou qualquer outro material que auxilie na avaliação.
+
 ## Como será avaliado
 1. **Arquitetura:** Respeito à estrutura solicitada.
-2. **Modelagem (Prisma):** Estruturação correta do `schema.prisma` e relacionamentos.
+2. **Modelagem de Dados (Prisma):** Avaliaremos a forma como você estruturou o `schema.prisma`, os tipos de dados escolhidos e como lidou com os relacionamentos entre as tabelas.
 3. **Regras de Negócio:** Tratamento de erros, status HTTP corretos e consistência nos cálculos de estoque.
 4. **Boas Práticas:** Uso correto do TypeScript, padronização e código limpo.
-5. **Setup (Diferencial):** Fornecer um `docker-compose.yml` para o PostgreSQL e instruções claras de como rodar o projeto.
+5. **Setup e Docker:** A clareza do tutorial entregue e o funcionamento correto dos containers da aplicação.
