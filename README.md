@@ -39,7 +39,7 @@ Esperamos que a aplicação siga uma separação clara de responsabilidades, seg
 Para que sua avaliação seja concluída, você deve fornecer os seguintes itens na sua entrega:
 * **Código Fonte:** O repositório completo com a aplicação desenvolvida.
 * **Tutorial de Utilização:** Instruções claras detalhando como utilizar o **Docker** para subir a aplicação e o banco de dados, além de como executar a API.
-* **Relatório de Criação:** Um breve documento (pode ser incluído no próprio README da sua entrega) explicando as decisões de arquitetura, como desenhou as tabelas e os desafios encontrados.
+* **Relatório de Criação:** Um breve documento explicando as decisões de arquitetura, como desenhou as tabelas e os desafios encontrados.
 * **Outros Dados Adicionais:** Coleções do Postman/Insomnia, scripts extras, ou qualquer outro material que auxilie na avaliação.
 
 ## Como será avaliado
